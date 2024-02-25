@@ -3,7 +3,7 @@ FROM node
 
 # copy app to container 
 WORKDIR /usr/app
-COPY ./app /usr/app/
+COPY ./ /usr/app/
 
 # change directory to "app/" 
 
